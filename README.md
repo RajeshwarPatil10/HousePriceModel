@@ -14,6 +14,10 @@ Data
 The which we used to train this model was imported from kaggale.com(HousePricePrediction.csv).
 Data shoud be cleaned and no null values should be present. Drop the columns having maximum null values.
 Setup Instructions
+Make Sure you are deploying in virtualenv:
+pip install virtualenv
+virtualenv env
+./env./Scripts.activate.ps1
 1. Clone the Repository
    git clone https://github.com/RajeshwarPatil10/HousePriceModel.git cd house-price-prediction
 2.Install Dependencies
