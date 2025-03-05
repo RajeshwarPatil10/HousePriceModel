@@ -12,4 +12,4 @@ Pickle Storage: Saves the trained model and scalers for future use.
 
 Setup Instructions
 1. Clone the Repository
-   git clone https://github.com/your-username/house-price-prediction.git cd house-price-prediction
+   git clone https://github.com/RajeshwarPatil10/house-price-prediction.git cd house-price-prediction
