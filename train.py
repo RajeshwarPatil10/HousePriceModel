@@ -21,7 +21,7 @@ x_train = sc.fit_transform(x_train)
 x_test = sc.transform(x_test)
 
 sc_y = StandardScaler()
-y_train = sc_y.fit_transform(y_train.values.reshape(-1, 1))  # ✅ Reshape for scaler
+y_train = sc_y.fit_transform(y_train.values.reshape(-1, 1))  
 y_test = sc_y.transform(y_test.values.reshape(-1, 1))
 
 #Instatiate the model
